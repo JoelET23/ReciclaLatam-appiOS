@@ -16,12 +16,12 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        for family in UIFont.familyNames {
+        /*for family in UIFont.familyNames {
             print(family)
             for name in UIFont.fontNames(forFamilyName: family){
                 print(name)
             }
-        }
+        }*/
         //lblinicio.font = UIFont(name: "Montserrat-ExtraBold", size: 30)
     }
     
